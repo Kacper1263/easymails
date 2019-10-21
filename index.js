@@ -48,7 +48,4 @@ class EasyMail{
     }
 }
 
-//var ezMail = new EasyMail('gmail', 'marcinkiewicz.kacper@gmail.com', 'geiyehidzhvmfvkx')
-// ezMail.sendMail('kacperonetowski@gmail.com', "Test 2", "Test")
-
 module.exports = EasyMail
