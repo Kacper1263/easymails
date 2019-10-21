@@ -1,6 +1,6 @@
 {
   "name": "easymails",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Send emails faster. Based on nodemailer",
   "main": "index.js",
   "scripts": {
