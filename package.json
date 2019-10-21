@@ -1,0 +1,26 @@
+{
+  "name": "easymails",
+  "version": "1.0.1",
+  "description": "Send emails faster. Based on nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Kacper Marcinkiewicz",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacper1263/easymails.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kacper1263/easymails/issues"
+  },
+  "homepage": "https://github.com/kacper1263/easymails#readme"
+}
