@@ -10,7 +10,7 @@ Just create new easymails and use it quickly<br />
 //Require easymails
 var EasyMail = require('easymails')
 
-//Create new EasyMail
+//Create mailer
 var mailer = new EasyMail('gmail', 'myMail@gmail.com', 'myPassword')
 //Send email
 mailer.sendMail('myFriend@mail.com', 'New mail', 'This is my new mail')
