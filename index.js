@@ -20,6 +20,7 @@ class EasyMail{
         this.port = port
 
         try{
+            //Custom service
             if(service.toLowerCase() == "custom"){
                 if(!host || !port) {
                     console.error("Easymails error: Host and Port is required in custom service! You must create new Easymail with Host and Port when you want to use custom service!")
@@ -34,7 +35,8 @@ class EasyMail{
                         pass: this.password
                     }
                 })
-            }else{
+            }
+            else{   //Known service
                 this.transporter = nodemailer.createTransport({
                     service: this.service,
                     auth: {
