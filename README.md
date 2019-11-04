@@ -1,11 +1,13 @@
 Send emails faster <br /><br />
 This package is based on nodemailer<br />
+## Installation
 To install easymails use:<br />
 ```
 npm i easymails
 ```
-
+## Usage
 Just create new easymails and use it quickly<br />
+If you are creating mailer in [known service](https://nodemailer.com/smtp/well-known/) e.g. Gmail<br />
 ```js
 //Require easymails
 var EasyMail = require('easymails')
