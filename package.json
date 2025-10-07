@@ -12,7 +12,7 @@
   "author": "Kacper Marcinkiewicz",
   "license": "MIT",
   "dependencies": {
-    "nodemailer": "^6.3.1"
+    "nodemailer": "^7.0.7"
   },
   "devDependencies": {},
   "repository": {
